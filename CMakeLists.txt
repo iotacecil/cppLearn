@@ -1,0 +1,5 @@
+PROJECT(TEST)
+SET(SRC_LIST test.cpp)
+MESSAGE(STATUS "This is BINARY dir" ${TEST_BINARY_DIR})
+MESSAGE(STATUS "This is SOURCE dir" ${TEST_SOURCE_DIR})
+ADD_EXECUTABLE(test test.cpp Door.cpp DoorFunc.cpp Func2.cpp Func2.h Func3.cpp Func3.h leetcode/lc376.cpp leetcode/lc376.h)
